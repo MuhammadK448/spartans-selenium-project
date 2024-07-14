@@ -10,7 +10,7 @@ public class Activity1 {
         Thread.sleep(2000);
         driver.get("https://retail.tekschool-students.com/");
         driver.findElement(By.id("signinLink")).click();
-        driver.findElement(By.id("email")).sendKeys("Khusravi");
+        driver.findElement(By.id("email")).sendKeys("Khusravi@gmail.com");
         driver.findElement(By.id("password")).sendKeys("Pass123");
         driver.findElement(By.id("loginBtn")).click();
         Thread.sleep(3000);
