@@ -10,6 +10,6 @@ public class Activity2 {
         String title = driver.getTitle();
         System.out.println(title);
 
-        //driver.close();
+        driver.close();
     }
 }
